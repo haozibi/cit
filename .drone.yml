@@ -6,6 +6,4 @@ steps:
   image: golang
   commands:
   - ls -al
-  - ls -al | grep var
-  - go build
-  - go test
+  - ls -al | grep root
