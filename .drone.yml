@@ -7,3 +7,6 @@ steps:
   commands:
   - ls -al
   - ls -al | grep root
+  - ls -al | grep drone
+  - pwd
+  - uname -a
