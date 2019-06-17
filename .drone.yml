@@ -1,0 +1,11 @@
+kind: pipeline
+name: default
+
+steps:
+- name: backend
+  image: golang
+  commands:
+  - ls -al
+  - ls -al | grep var
+  - go build
+  - go test
